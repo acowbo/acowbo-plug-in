@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "关闭同一域名下的所有标签页",
+  "version": "1.0",
+  "description": "通过右键菜单关闭与当前页面同域名的其他标签页，同时保留当前页。",
+  "permissions": ["tabs", "contextMenus"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
