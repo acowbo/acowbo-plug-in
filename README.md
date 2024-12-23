@@ -5,4 +5,4 @@
 
 🚀 **MDMagic** - 右键预览各种文件！  
 🎉 开箱即用，⚡ 极速转换，💡 告别下载操作！ 
-![在线预览演示](https://minio.acowbo.fun/typora-img/202412231018662.gif#pic_center)
+![在线预览演示](https://minio.acowbo.fun/typora-img/202412231042640.gif)
