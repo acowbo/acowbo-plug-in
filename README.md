@@ -12,3 +12,8 @@
 > 谷歌浏览器一键关闭同域名标签页
 
 ![关闭同域名其它标签页](https://s2.loli.net/2024/12/23/fdjmQaczWvo5MB9.gif)
+
+## page-markers
+> 谷歌浏览器页面标记插件
+
+![页面标记演示](https://s2.loli.net/2024/12/23/Er2UFTovYSfiWny.gif)

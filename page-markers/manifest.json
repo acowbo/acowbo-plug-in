@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "右键画图插件",
+  "version": "1.0",
+  "description": "在页面任意位置右键画图，覆盖默认右键菜单。",
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "48": "icons/icon48.png"
+  }
+}
