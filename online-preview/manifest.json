@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "文件预览插件",
+  "version": "1.0",
+  "description": "右键预览各种文件（Java、Python、Vue 等）",
+  "permissions": ["contextMenus", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <!-- <meta charset="UTF-8"> -->
+  <meta charset="UTF-8" http-equiv="Content-Security-Policy" content="script-src 'self' https://cdnjs.cloudflare.com;">
+  <title>文件预览</title>
+  <!-- Prism.js 样式 -->
+  <link href="lib/prism.css" rel="stylesheet" />
+
+  <style>
+    body { font-family: Arial, sans-serif; }
+    pre { border: 1px solid #ddd; padding: 10px; }
+    
+    /* 自定义表格样式 */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>文件预览</h1>
+  <div id="content">
+    <pre><code id="fileContent" class="language-none"></code></pre>
+    <div id="excelContent"></div>
+  </div>
+
+  <!-- 本地加载 Prism.js 和 SheetJS -->
+  <script src="lib/prism.js"></script>
+  <script src="lib/prism-java.js"></script>
+  <script src="lib/prism-python.js"></script>
+  <script src="lib/xlsx.full.min.js"></script>
+  <script src="preview.js"></script>
+</body>
+</html>
