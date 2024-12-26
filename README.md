@@ -17,3 +17,8 @@
 > 谷歌浏览器页面标记插件
 
 ![页面标记演示](https://s2.loli.net/2024/12/23/Er2UFTovYSfiWny.gif)
+
+## open-url-on-paste
+> 谷歌浏览器剪切板粘贴自动打开链接(省去自己新窗口打开，粘贴链接的操作)插件
+
+![自动打开链接](https://s2.loli.net/2024/12/26/CrP6VvwJlIpATKt.gif)
