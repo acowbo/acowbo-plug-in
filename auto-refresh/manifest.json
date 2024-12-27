@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Refresh Tabs",
+  "version": "1.0",
+  "description": "为浏览器页面添加定时刷新功能。",
+  "permissions": ["tabs", "contextMenus", "storage", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
